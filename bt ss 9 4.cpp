@@ -72,7 +72,6 @@ int main() {
                 if(editIndex <0 || editIndex > size - 1){
                     printf("vi tri can xoa ko hop le \n");
                 } else{
-                    // 1,2,3,4,5 : index =2 - value =100
                     printf("Hay nhap vao gia tri moi [gia tri cu = %d]:",arrayInt[editIndex]);
                     scanf("%d", &newValue);
                     arrayInt[editIndex] = newValue;
@@ -97,7 +96,7 @@ int main() {
             case 6:
                 break;
             default:
-                printf("Lua chon ko hop le : vui lòng nh?p t? 1 -6\n");
+                printf("Lua chon ko hop le : vui lÃ²ng nh?p t? 1 -6\n");
         }
         if (choice ==6){
             printf("Thoat chuong trinh");
